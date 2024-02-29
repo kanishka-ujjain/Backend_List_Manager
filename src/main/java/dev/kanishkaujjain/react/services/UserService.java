@@ -1,14 +1,14 @@
 package dev.kanishkaujjain.react.services;
 
-import dev.kanishkaujjain.react.payloads.UserDto;
+import dev.kanishkaujjain.react.payloads.UserDAO;
 
 import java.util.List;
 
 public interface UserService {
 
-    UserDto createUser(UserDto userDto);
-    UserDto updateUser(UserDto user, Integer userId);
-    UserDto getUserById(Integer userId);
-    List<UserDto> getAllUsers();
+    UserDAO createUser(UserDAO userDAO);
+    UserDAO updateUser(UserDAO user, Integer userId);
+    UserDAO getUserById(Integer userId);
+    List<UserDAO> getAllUsers();
     void deleteUser(Integer userId);
 }

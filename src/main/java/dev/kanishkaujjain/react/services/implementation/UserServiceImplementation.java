@@ -1,6 +1,6 @@
 package dev.kanishkaujjain.react.services.implementation;
 
-import dev.kanishkaujjain.react.payloads.UserDto;
+import dev.kanishkaujjain.react.payloads.UserDAO;
 import dev.kanishkaujjain.react.repositories.UserRepo;
 import dev.kanishkaujjain.react.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,22 +13,22 @@ public class UserServiceImplementation implements UserService {
     private UserRepo userRepo;
 
     @Override
-    public UserDto createUser(UserDto userDto) {
+    public UserDAO createUser(UserDAO userDAO) {
         return null;
     }
 
     @Override
-    public UserDto updateUser(UserDto user, Integer userId) {
+    public UserDAO updateUser(UserDAO user, Integer userId) {
         return null;
     }
 
     @Override
-    public UserDto getUserById(Integer userId) {
+    public UserDAO getUserById(Integer userId) {
         return null;
     }
 
     @Override
-    public List<UserDto> getAllUsers() {
+    public List<UserDAO> getAllUsers() {
         return null;
     }
 
